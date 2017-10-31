@@ -9,6 +9,9 @@
  * @link https://github.com/rlanvin/php-ip 
  */
 
+use GMP;
+use InvalidArgumentException;
+
 /**
  * Class to manipulate IPv4
  */

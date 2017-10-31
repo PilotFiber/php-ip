@@ -14,6 +14,6 @@
  */
 class IPv6Block extends IPBlock
 {
-	protected $ip_class = 'IPv6';
+	protected $ip_class = 'Rlanvin\Phpip\IPv6';
 	protected $class = __CLASS__;
 }

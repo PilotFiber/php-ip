@@ -1,4 +1,4 @@
-<?php
+<?php namespace Rlanvin\Phpip;
 
 /**
  * Licensed under the MIT license.
@@ -14,6 +14,6 @@
  */
 class IPv4Block extends IPBlock
 {
-	protected $ip_class = 'IPv4';
+	protected $ip_class = 'Rlanvin\Phpip\IPv4';
 	protected $class = __CLASS__;
 }

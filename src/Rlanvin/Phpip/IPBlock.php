@@ -9,6 +9,14 @@
  * @link https://github.com/rlanvin/php-ip 
  */
 
+use Iterator;
+use ArrayAccess;
+use InvalidArgumentException;
+use OutOfBoundsException;
+use RuntimeException;
+use LogicException;
+use Countable;
+
 /**
  * Base class to manipulate CIDR block (aka "networks").
  */

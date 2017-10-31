@@ -9,6 +9,9 @@
  * @link https://github.com/rlanvin/php-ip 
  */
 
+use InvalidArgumentException;
+use OutOfBoundsException;
+
 if ( ! function_exists('gmp_shiftl') ) {
 	/**
 	 * Shift left (<<)
