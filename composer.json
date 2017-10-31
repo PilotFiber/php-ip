@@ -10,6 +10,6 @@
         "ext-gmp": "*"
     },
     "autoload": {
-        "classmap": ["src/"]
+        "psr-4": {"Rlanvin\\": "src/Rlanvin"}
     }
 }
