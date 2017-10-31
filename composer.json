@@ -1,9 +1,9 @@
 {
-    "name": "PilotFiber/php-ip",
+    "name": "pilotfiber/php-ip",
     "type": "library",
     "description": "IPv4/IPv6 manipulation library for PHP",
     "keywords": ["ip","ipv4","ipv6"],
-    "homepage": "https://github.com/PilotFiber/php-ip",
+    "homepage": "https://github.com/pilotfiber/php-ip",
     "license": "MIT",
     "require": {
         "php": ">=5.3.0",
